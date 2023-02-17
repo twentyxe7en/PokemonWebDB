@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PokeWeb</title>
+	<link rel="icon" type="image/icon type" href="favicon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="input">
+			<div class="logo">
+				<img src="favicon.png">
+				<h1>LucarioDB</h1>
+			</div>
+			<div class="dex">
+				<!-- <div class="limit">
+					<input type="text" id="limit">
+					<input type="button" value="update" id="updateBtn">
+				</div> -->
+				<div class="form">
+					<input type="text" name="name" placeholder="Input name" id="add">
+					<input type="button" value="Add" id="addBtn">
+				</div>
+
+			</div>
+		</div>
+		<div class="table">
+			<table id="tbl">
+				<tr>
+					<thead>
+						<td class="stat">ID</td>
+						<td class="name">Name</td>
+						<td colspan=2 class="type-header">Type</td>
+						<td class="stat">HP</td>
+						<td class="stat">Attack</td>
+						<td class="stat">Defense</td>
+						<td class="stat">Sp. Attack</td>
+						<td class="stat">Sp. Defense</td>
+						<td class="stat">Speed</td>
+						<td class="stat">Height</td>
+						<td class="stat">Weight</td>
+					</thead>
+				</tr>
+
+			</table>
+		</div>
+	</div>
+	<script src="server/api.js"></script>
+</body>
+</html>

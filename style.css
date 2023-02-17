@@ -1,0 +1,227 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Calibri";
+}
+
+.container {
+	position: relative;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.container div {
+	position: relative;
+	display: flex;
+	width: 100%;
+}
+
+.input {
+	width: 100%;
+	height: 8%;
+	background: #225;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.input .logo {
+	position: relative;
+	height: 150px;
+	width: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	color: #fff;
+	font-size: 18px;
+/*	border: 2px solid white;*/
+}
+
+.logo img {
+	position: relative;
+	height: 100px;
+	width: 100px;
+/*	filter: brightness(1.25);*/
+}
+
+.input .dex {
+	position: relative;
+	display: flex;
+	height: 100%;
+	width: calc(100vw - 300px);
+	color: #fff;
+	justify-content: center;
+/*	border: 2px solid red;*/
+/*	align-items: center;*/
+}
+
+.dex .form {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	display: flex;
+/*	border: 2px solid white;*/
+	justify-content: center;
+	align-items: center;
+}
+
+.form input {
+	position: relative;
+	height: 40px;
+	width: 80px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	font-size: 18px;
+}
+
+.form input[type="text"] {
+	text-align: center;
+	margin-right: 10px;
+	width: 300px;
+}
+
+.table {
+	width: 82%;
+	max-height: 100vh;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	overflow: auto;
+}
+
+.table table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.table table td {
+	border: 2px solid #000;
+	padding: -0.75em;
+/*	padding: 0.25em;*/
+/*	width: 150px;*/
+	text-align: center;
+	height: 60px;
+	font-size: 16px;
+/*	background: #fff;*/
+	z-index: 0;
+}
+
+.table table thead {
+	position: sticky;
+	z-index: 100 !important;
+}
+
+.table table thead td {
+	background: #444;
+	color: #fff;
+	font-weight: 700;
+	height: 30px;
+}
+
+.table table td:first-child {
+	margin-top: 60px;
+}
+
+.table .name, .table .type {
+	width: 200px;
+}
+
+.table .type-header {
+	width: 400px;
+}
+
+.table .stat {
+	width: 100px;
+}
+
+.normal {
+    background-color: #ddd !important;
+    color: black;
+}
+
+.fire {
+    background-color: orange !important;
+    color: black;
+}
+
+.grass {
+    background-color: lime !important;
+    color: black;
+}
+
+.water {
+    background-color: #57f !important;
+    color: white;
+}
+
+.ice {
+    background-color: lightblue !important;
+    color: black;
+}
+
+.electric {
+    background-color: gold !important;
+    color: black;
+}
+
+.fighting {
+    background-color: #a55 !important;
+    color: white;
+}
+
+.flying {
+    background-color: #87f !important;
+    color: white;
+}
+
+.bug {
+    background-color: yellowgreen !important;
+    color: black;
+}
+
+.ghost {
+    background-color: purple !important;
+    color: white;
+}
+
+.rock {
+    background-color: sienna !important;
+    color: white;
+}
+
+.ground {
+    background-color: burlywood !important;
+    color: black;
+}
+
+.steel {
+    background-color: #aaa !important;
+    color: black;
+}
+
+.dark {
+    background-color: #555 !important;
+    color: white;
+}
+
+.psychic {
+    background-color: palevioletred !important;
+    color: white;
+}
+
+.fairy {
+    background-color: pink !important;
+    color: black;
+}
+
+.dragon {
+    background-color: #40f !important;
+    color: white;
+}
+
+.poison {
+    background-color: darkviolet !important;
+    color: white;
+}
